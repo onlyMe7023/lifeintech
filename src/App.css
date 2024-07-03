@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+#root {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
